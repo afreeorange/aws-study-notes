@@ -67,6 +67,7 @@
 * "First layer of defense"
     - Since it operates at the instance level
 * Stateful!
+    - So no need to add explicit outgoing for each incoming (e.g. and esp. ICMP)
 * Default: block all incoming, allow all outgoing
 * Cannot block specific IP with SG!
     - Use NACL for that
