@@ -1,4 +1,4 @@
-# ![VPC](https://aws.amazon.com/vpc/faqs/)
+# [VPC](https://aws.amazon.com/vpc/faqs/)
 
 * 5 per region per account
 * World &rarr; Internet _or_ Virtual Private Gateway &rarr; Router &rarr; Route Table &rarr; NACLs &rarr; Subnets &rarr; Security Group &rarr; Entity
@@ -111,7 +111,7 @@ Let's say you want user `jane` to access a resource (like an S3 bucket). `jane` 
 
 ---
 
-# ![Storage Gateway](https://aws.amazon.com/storagegateway/faqs/)
+# [Storage Gateway](https://aws.amazon.com/storagegateway/faqs/)
 
 * It's a _software_ appliance you download as a _VM image_ and run in your datacenter
     - Can run on VMWare ESXi or Microsoft HyperV
@@ -138,7 +138,7 @@ Let's say you want user `jane` to access a resource (like an S3 bucket). `jane` 
 
 ---
 
-# ![CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+# [CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 
 * It's the AWS CDN. You create *distributions* with it
 * *Origins* for a single distribution can be
@@ -161,7 +161,7 @@ Let's say you want user `jane` to access a resource (like an S3 bucket). `jane` 
 
 ---
 
-# ![Snowball](https://aws.amazon.com/snowball/faqs/)
+# [Snowball](https://aws.amazon.com/snowball/faqs/)
 
 * Petabyte-scale way to move data quickly into AWS. Used to be called "AWS Import/Export Data"
 * Three kinds
@@ -178,7 +178,7 @@ Let's say you want user `jane` to access a resource (like an S3 bucket). `jane` 
 
 ---
 
-# ![Elastic Transcoder](https://aws.amazon.com/elastictranscoder/faqs/)
+# [Elastic Transcoder](https://aws.amazon.com/elastictranscoder/faqs/)
 
 * Transcoder in the cloud
     - E.g. S3 -> Lambda -> ElasticTranscoder -> S3
@@ -187,7 +187,7 @@ Let's say you want user `jane` to access a resource (like an S3 bucket). `jane` 
 
 ---
 
-# ![Route53](https://aws.amazon.com/route53/faqs/)
+# [Route53](https://aws.amazon.com/route53/faqs/)
 
 * There's a limit of 50 domain names per account
     - Can be raised tho
@@ -211,7 +211,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Kinesis](https://aws.amazon.com/kinesis/streams/faqs/)
+# [Kinesis](https://aws.amazon.com/kinesis/streams/faqs/)
 
 ## Kinesis Streams
 
@@ -239,7 +239,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Glacier](https://aws.amazon.com/glacier/faqs/)
+# [Glacier](https://aws.amazon.com/glacier/faqs/)
 
 * 1kb to 40TB in "archive"
 * Archives are immutable
@@ -247,7 +247,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Direct Connect](https://aws.amazon.com/directconnect/faqs/)
+# [Direct Connect](https://aws.amazon.com/directconnect/faqs/)
 
 * Dedicated connection to AWS datacenter
     - Bypass ISPs!
@@ -266,7 +266,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![IAM](https://aws.amazon.com/iam/faqs/)
+# [IAM](https://aws.amazon.com/iam/faqs/)
 
 * _Everything_ is global: users, groups, policies, roles
     - ARN-wise, that is
@@ -284,7 +284,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Security Token Service](https://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html)
+# [Security Token Service](https://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html)
 
 * Use for limited and temporary access
 * User comes from three sources
@@ -312,7 +312,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![CloudWatch](https://aws.amazon.com/cloudwatch/faqs/)
+# [CloudWatch](https://aws.amazon.com/cloudwatch/faqs/)
 
 * Has Standard and Detailed Monitoring
     - Each depends on kind of instance
@@ -429,7 +429,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![OpsWorks Stacks](https://aws.amazon.com/opsworks/stacks/faqs/)
+# [OpsWorks Stacks](https://aws.amazon.com/opsworks/stacks/faqs/)
 
 * Provisioning and Configuration Management powered by Chef.
 * OpsWorks Stacks is _configuration_ management
@@ -458,7 +458,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
     - Undeploy
     - Shutdown
 
-## A Word on ![OpsWorks for Chef Automate](https://aws.amazon.com/opsworks/chefautomate/faqs/)
+## A Word on [OpsWorks for Chef Automate](https://aws.amazon.com/opsworks/chefautomate/faqs/)
 
 * This is a _managed Chef server_. That's it.
     - Backups et all are managed for you.
@@ -466,7 +466,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![CloudFormation](https://aws.amazon.com/cloudformation/faqs/)
+# [CloudFormation](https://aws.amazon.com/cloudformation/faqs/)
 
 * _Minimum required_ is the `Resources` section
 * Need Resource Conditionals? Use `WaitCondition`
@@ -474,7 +474,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# Elastic LoadBalancer (![Classic](https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/faqs/) and ![Application](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/faqs/))
+# Elastic LoadBalancer ([Classic](https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/faqs/) and [Application](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/faqs/))
 
 * Two types w.r.t. DNS
     - External ELB with external DNS
@@ -517,7 +517,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Elastic Block Store](https://aws.amazon.com/ebs/faqs/)
+# [Elastic Block Store](https://aws.amazon.com/ebs/faqs/)
 
 * _Must be in same AZ as EC2_
 * Max 16TiB; min varies depending on type
@@ -613,7 +613,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Workspaces](https://aws.amazon.com/workspaces/faqs/)
+# [Workspaces](https://aws.amazon.com/workspaces/faqs/)
 
 * A VDI in the cloud
 * Don't need an AWS account
@@ -622,7 +622,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Relational Database Service](https://aws.amazon.com/rds/faqs/)
+# [Relational Database Service](https://aws.amazon.com/rds/faqs/)
 
 ## Backups
 
@@ -719,7 +719,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Simple Workflow Service](https://aws.amazon.com/swf/faqs/)
+# [Simple Workflow Service](https://aws.amazon.com/swf/faqs/)
 
 * Task-based API as opposed to SQS which is message-based
 * Retention period is 1 year!
@@ -732,7 +732,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![RedShift](https://aws.amazon.com/redshift/faqs/)
+# [RedShift](https://aws.amazon.com/redshift/faqs/)
 
 * Data warehousing solution
     - About operations on columns (sums, averages, other stats) and not single rows
@@ -751,7 +751,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![DynamoDB](https://aws.amazon.com/dynamodb/faqs/)
+# [DynamoDB](https://aws.amazon.com/dynamodb/faqs/)
 
 * All SSD storage
 * Across three different facilities (not the same as AZs...)
@@ -821,7 +821,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Simple Queue Service](https://aws.amazon.com/sqs/faqs/)
+# [Simple Queue Service](https://aws.amazon.com/sqs/faqs/)
 
 * Used to decouple components
     - Producer makes data faster than consumer can process
@@ -853,7 +853,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Simple Notification Service](https://aws.amazon.com/sns/faqs/)
+# [Simple Notification Service](https://aws.amazon.com/sns/faqs/)
 
 * Push-based (instead of SQS which is pull-based)
 * Core concept is a *topic*
@@ -873,7 +873,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/faqs/)
+# [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/faqs/)
 
 * Stores app and logs in S3
 * Have access
@@ -904,7 +904,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Lambda](https://aws.amazon.com/lambda/faqs/)
+# [Lambda](https://aws.amazon.com/lambda/faqs/)
 
 * Prices based on
     - Number of requests and
@@ -916,7 +916,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![S3](https://aws.amazon.com/s3/faqs/)
+# [S3](https://aws.amazon.com/s3/faqs/)
 
 * Understand the consistency models!
     - Read after Write Consistency for PUTs (new objects... why is this not a POST?)
@@ -977,7 +977,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![EC2](https://aws.amazon.com/ec2/faqs/)
+# [EC2](https://aws.amazon.com/ec2/faqs/)
 
 * DR MCGIFT PX
 * Understand the states: `running`, `stopped`, `terminated`
@@ -1002,7 +1002,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 * `aws ec2 describe-instances --instance-ids ...` will list all running instance(s)
 * `aws ec2 terminate-instances --instance-ids ...` will terminate instance(s)
 
-## ![Placement Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
+## [Placement Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
 
 * Collection of homogenous (recommended) EC2 instances
 * Why? Guarantees low, 10Gbps network latency. Think Hadoop cluster.
@@ -1011,7 +1011,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 * Cannot merge placement groups
 * Cannot add _existing_ instance; create AMI and boot up
 
-## ![AMIs](https://aws.amazon.com/amazon-linux-ami/faqs/)
+## [AMIs](https://aws.amazon.com/amazon-linux-ami/faqs/)
 
 * If they're S3-backed, the root volume goes **poof** if the instance is rebooted (?)
 
@@ -1028,7 +1028,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 * Understand Heavy versus Medium utilization
     - Going from xlarge &rarr; large &rarr; medium &rarr; small:
 
-## ![Consolidated Billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html)
+## [Consolidated Billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html)
 
 * Associate up to 20 accounts with a paying account
     - Can add more by contacting AWS
@@ -1050,7 +1050,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![ElastiCache](https://aws.amazon.com/elasticache/faqs/)
+# [ElastiCache](https://aws.amazon.com/elasticache/faqs/)
 
 * In-memory key/value store
 * Durability considerations...
@@ -1060,7 +1060,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Elastic File System](https://aws.amazon.com/efs/faq/)
+# [Elastic File System](https://aws.amazon.com/efs/faq/)
 
 * NFS in the cloud, basically
 * Can scale like crazy to petabytes
@@ -1085,7 +1085,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Risk Management](https://d0.awsstatic.com/whitepapers/compliance/AWS_Risk_and_Compliance_Whitepaper.pdf)
+# [Risk Management](https://d0.awsstatic.com/whitepapers/compliance/AWS_Risk_and_Compliance_Whitepaper.pdf)
 
 * Bi-annual evaulation of risks by Amazon
 * They do vulnerability scans themselves
@@ -1093,7 +1093,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Disaster Recovery](https://media.amazonwebservices.com/AWS_Disaster_Recovery.pdf)
+# [Disaster Recovery](https://media.amazonwebservices.com/AWS_Disaster_Recovery.pdf)
 
 * Understand Recovery Point Objective (RPO) and Recovery Time Objective (RTO)
     - Balance between the two for costs and resilience
@@ -1178,7 +1178,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![Shared Model of Responsibility](https://aws.amazon.com/compliance/shared-responsibility-model/)
+# [Shared Model of Responsibility](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
 * Understand what Amazon is responsible for and isn't
     - Use common sense...
@@ -1219,7 +1219,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 * Elastic LoadBalancer supports SSL termination
 * Trusted Advisor can be used for audits but not in a completely exhaustive sense
 
-## ![Trusted Adviser](https://aws.amazon.com/premiumsupport/ta-faqs/)
+## [Trusted Adviser](https://aws.amazon.com/premiumsupport/ta-faqs/)
 
 * High-level information
     - Performance
@@ -1245,7 +1245,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 
 ---
 
-# ![AutoScaling](https://aws.amazon.com/autoscaling/faqs/)
+# [AutoScaling](https://aws.amazon.com/autoscaling/faqs/)
 
 * Free of cost
 * Two conflicting schedules? ERROR
@@ -1282,3 +1282,4 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 * How do you handle network 'bursts' to an instance or set of instances in a subnet? Upgrade instance types? Load-balance a NAT Gateway? Attach ENIs?
 * How do you do an EBS RAID snapshot?
     - Best practices and suspend IO?
+
