@@ -1283,4 +1283,7 @@ They're exactly what you'd guess them to be. Can adjust each of these on the fly
 * How do you handle network 'bursts' to an instance or set of instances in a subnet? Upgrade instance types? Load-balance a NAT Gateway? Attach ENIs?
 * How do you do an EBS RAID snapshot?
     - Best practices and suspend IO?
+* What's the smallest subnet you can create?
+* What's with "EC2 Classic"?
+* Identity Federation: users or apps or both?
 
